@@ -1,0 +1,15 @@
+.consumables {
+  flex: auto;
+  display: flex;
+  &_location_list {
+    padding: 10px;
+    background-color: white;
+    overflow: auto;
+  }
+  &_list {
+    display: flex;
+  }
+  &_location_list + &_list {
+    margin-left: 10px;
+  }
+}

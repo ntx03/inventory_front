@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-0.3283538818359375 -0.3283538818359375 48 66" preserveAspectRatio="xMinYMin" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.fil0 {fill:black;fill-rule:nonzero} .fil1 {fill:#5C3021;fill-rule:nonzero} .fil3 {fill:#DE5433;fill-rule:nonzero} .fil2 {fill:#C79B65;fill-rule:nonzero}</style>
+  </defs>
+  <path class="fil2" d="M 13.387 41.068 L 13.387 23.673 L -0.328 23.673 L -0.328 41.06 C -0.328 47.185 2.941 52.846 8.245 55.908 L 23.675 64.816 L 23.675 48.986 L 15.103 44.037 C 14.043 43.425 13.389 42.293 13.389 41.068 Z"/>
+  <path class="fil3" d="M 23.673 57.958 L 39.099 49.052 C 44.404 45.989 47.672 40.327 47.672 34.205 L 47.672 -0.328 L 23.673 -0.328 L 23.673 13.387 L 33.957 13.387 L 33.959 34.212 C 33.959 35.436 33.305 36.569 32.243 37.181 L 23.673 42.13 L 23.673 57.957 Z"/>
+  <path class="fil1" d="M 23.673 -0.328 L -0.326 23.673 L 23.673 23.673"/>
+</svg>

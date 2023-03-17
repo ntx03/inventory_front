@@ -1,0 +1,19 @@
+.login {
+  height: 100%;
+  background: #f0f2f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &_form {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    &_title {
+      text-align: center;
+    }
+    &_button {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

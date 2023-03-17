@@ -1,0 +1,48 @@
+{
+  "name": "inventory-frontend",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "yarn install && webpack",
+    "dev": "yarn install && webpack-dev-server"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "html-loader": "^0.5.4",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "uglifyjs-webpack-plugin": "^1.2.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "antd": "3.0.0",
+    "base64-js": "^1.2.1",
+    "content-disposition": "^0.5.2",
+    "downloadjs": "^1.4.7",
+    "lodash": "^4.17.4",
+    "mobx": "^3.3.1",
+    "mobx-react": "^4.3.4",
+    "mobx-react-devtools": "^4.2.15",
+    "mobx-router5": "^3.0.0",
+    "mobx-utils": "^3.2.1",
+    "moment": "^2.19.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-table": "^6.7.4",
+    "router5": "^5.6.0",
+    "text-encoding": "^0.6.4",
+    "urijs": "^1.19.0"
+  }
+}

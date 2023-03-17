@@ -1,0 +1,93 @@
+.equipment {
+  flex: auto;
+  display: flex;
+  &_location_list {
+    padding: 10px;
+    background-color: white;
+    overflow: auto;
+  }
+  &_card {
+    background-color: white;
+    &_history {
+      height: 100%;
+      > div {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        .ant-card-body {
+          flex: auto;
+          padding: 15px;
+          display: flex;
+          > div {
+            flex: auto;
+            display: flex;
+            flex-direction: column;
+          }
+        }
+      }
+      &_filter {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 25px;
+        h6 {
+          font-size: 9px;
+          margin-bottom: 0;
+          align-items: center;
+        }
+        .ant-tag-checkable {
+          display: flex;
+          align-items: center;
+          margin-top: 2px;
+          i + h6 {
+            margin-left: 4px;
+          }
+          &.ant-tag-checkable-checked {
+            i {
+              color: white;
+            }
+            h6 {
+              color: white;
+            }
+          }
+        }
+      }
+      &_timeline {
+        flex: auto;
+        overflow: hidden;
+        position: relative;
+        > div {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          overflow-y: auto;
+        }
+        .ant-timeline {
+          padding: 10px;
+          .ant-timeline-item-content {
+            p {
+              margin-bottom: 2px;
+            }
+          }
+        }
+      }
+      &-close {
+        &:hover {
+          cursor: pointer;
+          color: salmon;
+        }
+      }
+    }
+  }
+  &_list {
+    display: flex;
+  }
+  &_location_list + &_list {
+    margin-left: 10px;
+  }
+  &_list + &_card {
+    margin-left: 10px;
+  }
+}

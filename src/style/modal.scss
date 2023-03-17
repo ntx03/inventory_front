@@ -1,0 +1,38 @@
+.ant-modal {
+  .ant-modal-close {
+    height: 53px;
+    width: 53px;
+    .ant-modal-close-x {
+      height: 53px;
+      width: 53px;
+      line-height: 53px;
+    }
+  }
+  .ant-modal-header {
+    padding: 15px;
+  }
+  .ant-modal-body {
+    padding: 15px;
+    .ant-transfer {
+      display: flex;
+      align-items: center;
+      .ant-transfer-list {
+        flex: auto;
+      }
+      .ant-transfer-operation {
+        .ant-btn + .ant-btn {
+          margin-left: 0;
+        }
+      }
+    }
+    .table {
+      height: 250px;
+    }
+  }
+  .ant-modal-footer {
+    padding: 15px;
+  }
+  &.edit_group {
+    width: 600px !important;
+  }
+}

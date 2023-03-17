@@ -1,0 +1,130 @@
+.table {
+  height: 100%;
+
+  &__buttons {
+    height: 100%;
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .ant-btn {
+      font-size: 12px;
+      width: 22px;
+      height: 22px;
+    }
+  }
+
+  //.-filters
+
+  .rt-table {
+    .rt-thead {
+      .rt-tr::after {
+        content: "";
+        overflow-y: scroll;
+        height: 0;
+      }
+    }
+    .-filters {
+      border-top: 1px solid rgba(0, 0, 0, 0.05);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+      .rt-tr .rt-th {
+        padding: 0;
+        background-color: white;
+        .ant-select {
+          height: 100%;
+
+          .ant-select-selection {
+            border-radius: 0;
+            border-width: 0;
+            height: 100%;
+
+            .ant-select-selection__rendered {
+              margin-left: 3px;
+              margin-right: 3px;
+
+              .ant-select-selection__choice .ant-select-selection__choice__content {
+                font-size: 12px;
+              }
+
+              .ant-select-search__field {
+                padding: 0 !important;
+                border: none !important;
+              }
+            }
+          }
+        }
+        .ant-calendar-picker {
+          height: 100%;
+            .ant-calendar-picker-input{
+              border: none;
+                .ant-calendar-range-picker-input{
+                  border: none;
+                    &::placeholder{
+                      color: #fff;
+                    }
+                }
+                .ant-calendar-range-picker-separator{
+                  color: #fff;
+                }
+                .ant-calendar-picker-icon{
+                    &::after {
+                      color: #fff;
+                    }
+                }
+            }
+        }
+      }
+    }
+
+    .rt-tbody {
+      overflow-y: scroll;
+      overflow-x: hidden;
+
+      .rt-tr-group {
+        flex-grow: 0;
+
+        .rt-tr .rt-td {
+          font-size: 12px;
+          align-self: center;
+          padding: 5px;
+          .tags {
+            display: flex;
+            flex-wrap: wrap;
+            .ant-tag {
+              margin-top: 1px;
+              margin-bottom: 1px;
+            }
+          }
+        }
+      }
+
+      .rt-tr-group:last-child {
+        border-bottom: solid 1px rgba(0, 0, 0, 0.05);
+      }
+    }
+  }
+
+  .pagination-bottom {
+    .-pagination {
+      box-shadow: none;
+      font-size: 12px;
+      .-center {
+        .-pageInfo {
+          margin: 0 10px;
+          .-pageJump {
+            input {
+              width: 50px;
+              height: 25px;
+            }
+          }
+        }
+        .pageSizeOptions {
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+
+}
+

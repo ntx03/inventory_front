@@ -1,0 +1,51 @@
+.layout {
+  min-height: 100vh;
+  &_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    &_logo {
+      width: 64px;
+      height: 46px;
+      display: flex;
+      background: url("img/logo.svg") no-repeat center;
+      background-size: contain;
+      justify-content: center;
+      align-items: center;
+    }
+    .ant-menu {
+      flex: auto;
+    }
+    &_user-info {
+      text-align: center;
+      padding: 0 10px;
+      span {
+        color: #fff;
+        font-size: 16px;
+        margin-right: 10px;
+      }
+    }
+  }
+  &_content {
+    display: flex;
+    flex-direction: column;
+    &_header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 10px 5px 10px;
+      h1 {
+        flex: auto;
+        margin: 0;
+      }
+    }
+
+    &_content {
+      display: flex;
+      flex-direction: column;
+      flex: auto;
+      padding: 5px 10px 10px 10px;
+    }
+  }
+}

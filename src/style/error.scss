@@ -1,0 +1,19 @@
+.error {
+  flex: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &_icon {
+    font-size: 100px;
+    margin-bottom: 10px;
+  }
+  &_message {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  &_path {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
